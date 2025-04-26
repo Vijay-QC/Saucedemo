@@ -26,13 +26,13 @@ Before you begin, ensure that you have the following installed:
 1. Clone the repository:
    First, clone the repository to your local machine:
    
-    git clone https://github.com/Vijay-QC/saucedemo.git
-    cd saucedemo
+        git clone https://github.com/Vijay-QC/saucedemo.git
+        cd saucedemo
    
 2. Create and Activate a Virtual Environment
 It's recommended to create a virtual environment for this project to manage dependencies in isolation.
 
-    python -m venv venv
+        python -m venv venv
 
 On Windows, activate the virtual environment:
 
@@ -41,14 +41,14 @@ On Windows, activate the virtual environment:
 3. Install Required Dependencies
 Use pip to install the necessary dependencies:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
    
 This will install the required libraries, including Playwright and testing dependencies.
 
 4. Install Playwright Browsers
 Playwright needs browser binaries (Chromium, Firefox, WebKit) to run tests. Install them using:
 
-     playwright install
+       playwright install
 
 This will download and install the necessary browser binaries for testing.
 
@@ -58,13 +58,13 @@ This will download and install the necessary browser binaries for testing.
 
 1. Run Tests in Headless Mode (Default)
 
-    pytest --html=reports/index.html
+        pytest --html=reports/index.html
 
 This will execute all the tests and generate an HTML report in the reports folder.
 
 2. Run Tests in Headed Mode
 
-     pytest --headed --html=reports/index.html
+       pytest --headed --html=reports/index.html
 
 This will open the browser window while running the tests, useful for debugging.
 
@@ -79,12 +79,12 @@ To open the report: start reports/index.html
 
 1. Commit Your Changes
 
-     git add .
-     git commit -m "Initial Commit"
+       git add .
+       git commit -m "Initial Commit"
 
 2. Push Changes to GitHub
 
-     git push -u origin main
+       git push -u origin main
 
 3. Test Execution Videos
 You can find the video recordings of both headless and headed test runs in the Videos/ folder. These can be useful for debugging or showcasing the tests.
