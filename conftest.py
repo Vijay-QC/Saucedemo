@@ -6,7 +6,7 @@ from pages.inventory_page import InventoryPage
 @pytest.fixture(scope="function")
 def browser_page():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=2000)
+        browser = p.chromium.launch(slow_mo=2000)
 
         # Maximize the browser window by setting the viewport size
         context = browser.new_context()
