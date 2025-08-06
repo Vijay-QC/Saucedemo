@@ -1,4 +1,4 @@
-# Saucedemo Playwright Automation Suite (Python)
+# eCommerce_demo Playwright Automation Suite (Python)
 
 # Features
 - Automated UI tests using Python + Playwright
@@ -26,8 +26,8 @@ Before you begin, ensure that you have the following installed:
 1. Clone the repository:
    First, clone the repository to your local machine:
    
-        git clone https://github.com/Vijay-QC/saucedemo.git
-        cd saucedemo
+        git clone https://github.com/Vijay-QC/eCommerce_demo.git
+        cd eCommerce_demo
    
 2. Create and Activate a Virtual Environment
 It's recommended to create a virtual environment for this project to manage dependencies in isolation.
